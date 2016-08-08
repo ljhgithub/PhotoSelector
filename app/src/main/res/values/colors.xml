@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="up_pessed">#000000</color>
+
+
+    <color name="save_nor">#259624</color>
+    <color name="save_foused">#14e715</color>
+    <color name="save_pressed">#5af158</color>
+
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000002</color>
+    <color name="colorAccent">#000015</color>
+</resources>

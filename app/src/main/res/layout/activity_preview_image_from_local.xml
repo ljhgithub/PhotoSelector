@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7e424242">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/ib_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/up"
+            android:src="@mipmap/ic_up" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/picker_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#70000000"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="18dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:background="@null"
+            android:src="@mipmap/picker_image_normal" />
+
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="42dip"
+            android:paddingRight="8dip"
+            android:text="选择"
+            android:textColor="#fff"
+            android:textSize="14.0sp"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/message_button_bottom_send_selector"
+            android:enabled="false"
+            android:gravity="center"
+            android:minHeight="0dp"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:text="发送"
+            android:textColor="#fff"
+            android:textSize="14.0sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

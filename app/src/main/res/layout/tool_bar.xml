@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:background="#212121">
+
+    <ImageButton
+        android:id="@+id/ib_up"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/up"
+        android:src="@mipmap/ic_up" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:minWidth="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/save_nor"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:includeFontPadding="false"
+        android:textSize="16sp"
+        android:text="完成" />
+
+</RelativeLayout>
